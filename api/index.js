@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const { MongoClient, ServerApiVersion } = require("mongodb");
 require("dotenv").config();
-const bookRoutes = require("./routes/bookRoutes");
+const bookRoutes = require("../routes/bookRoutes");
 
 const app = express();
 const port = process.env.PORT || 5000;
